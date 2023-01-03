@@ -2,4 +2,5 @@ pragma solidity >=0.8.7;
 
 contract HelloWorld {
     string public myVariable = "Hello World";
+    string public myVariable2 = "Hello You";
 }
