@@ -2,5 +2,18 @@ pragma solidity >=0.8.7;
 
 contract HelloWorld {
     string public myVariable = "Hello World";
-    string public myVariable2 = "Hello You";
+}
+
+contract myfunction {
+    string public fruitname = "orange";
+    function getfruitname () public view returns (string memory){ // I want it to be public and since not making changes, view too 
+        return fruitname;
+    }
+}
+
+contract my2function {
+    uint public myNum = 273;
+    function setnum() public {
+        myNum = 48;
+    }
 }
