@@ -1,2 +1,2 @@
-# Solidity
-# Practicing Solidity
+## Solidity
+#### Practicing Solidity
