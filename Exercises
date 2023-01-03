@@ -17,3 +17,13 @@ contract my2function {
         myNum = 48;
     }
 }
+
+contract Datatypes {
+    uint public num1= 33; // Cannot be negative
+    int public num2 = -55; // Can be negative
+    uint8 public num3 = 100; // Maximum 255 = 256-1 = 2^8-1
+    bool public isTrue = false; 
+    address public myAccount = msg.sender; // Address is like account in Eth network
+    string public word1 = "Hello"; // In utf-8 format (alphabet format we know)
+    bytes32 public word2 = "World"; // Raw data type; limit in string size 
+}
