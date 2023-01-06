@@ -27,3 +27,14 @@ contract Datatypes {
     string public word1 = "Hello"; // In utf-8 format (alphabet format we know)
     bytes32 public word2 = "World"; // Raw data type; limit in string size 
 }
+
+contract Array1{
+    uint[4] data; // Array with 4 elements, length already defined
+    function setArrayValues() public{
+        data = [21, 38, 9, 347];
+    }
+
+    function getArrayValues() public view returns(uint[4] memory){ // Since length defined
+        return data;
+    }
+}
